@@ -853,7 +853,7 @@
 
             messages: {
                 name: "Please enter your name",
-                email: "Please enter your email",
+                contact: "Please enter valid contact no.",
                 topic: "Select your consult topic",
             },
 
