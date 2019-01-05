@@ -840,7 +840,10 @@
                     required: true,
                     minlength: 2
                 },
-                email: "required",
+                contact:  {
+                    required: true,
+                    minlength: 10
+                },
                 
                 topic: {
                     required: true
@@ -862,7 +865,7 @@
                 var message = $("#message").val();
                 $.ajax({
                     type: "POST",
-                    url: "./back.php",
+                    url: "https://www.zingarotech.com/back.php",
                     data: {
                     name1: name,
                     contact1: phone,
